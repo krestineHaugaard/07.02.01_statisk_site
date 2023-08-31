@@ -1,0 +1,114 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+header,
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(154, 170, 126);
+}
+
+main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bn {
+  display: flex;
+  margin: 10px;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: rgb(199, 219, 199);
+  border-radius: 10px;
+  border-style: none;
+  height: 100px;
+  width: 300px;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.bn {
+  font-size: 25px;
+  background-color: rgb(186, 226, 186);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.bn a {
+  color: black;
+  text-decoration: none;
+}
+
+.bn:hover {
+  text-decoration: underline;
+}
+
+.bn:active {
+  text-decoration: underline;
+  border-style: dotted;
+  border-color: darkgreen;
+}
+
+.bn:visited {
+  font-size: 25px;
+  background-color: rgb(186, 226, 186);
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tøj {
+  background-color: rgb(235, 255, 235);
+  padding: 20px;
+}
+
+.price {
+  font-size: 25px;
+  color: red;
+}
+
+.soldout {
+  background-color: rgb(255, 227, 227);
+}
+
+.discount {
+  text-decoration-line: line-through;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 15px;
+}
+
+.links a {
+  color: black;
+}
